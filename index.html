@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>House-Ne-Spaces | Dream Homes</title>
+<title>House-Ne-Spaces | Find Your Dream Home</title>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -12,67 +13,101 @@
 <body>
 
 <!-- HEADER -->
-<header>
-    <h1>House-Ne-Spaces</h1>
-</header>
 
-<!-- NAVIGATION -->
+<header>
+<h1>House-Ne-Spaces</h1>
+
 <nav>
-    <a href="index.html">Home</a>
-    <a href="#houses">Houses</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+<a href="index.html">Home</a>
+<a href="#properties">Properties</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<!-- MAIN CONTENT -->
+</header>
+
+<!-- HERO / SEARCH SECTION -->
+
+<section class="hero">
+
+<h2>Find Your Perfect Home</h2>
+<p>Browse houses and apartments available now</p>
+
+<input type="text" placeholder="Search location...">
+<button class="button">Search</button>
+
+</section>
+
+<!-- PROPERTY LISTINGS -->
+
 <main>
 
-<section id="houses">
+<section id="properties">
 
-<h2>Available Houses</h2>
+<h2>Available Properties</h2>
 
-<div class="house">
+<div class="property-grid">
+
+<div class="property-card">
 
 <img src="images/house1-front.jpg">
 
 <h3>Family House</h3>
 
-<p>3 Bedroom family home</p>
+<p class="price">$120,000</p>
 
-<a href="house1.html" class="button">View House</a>
+<p>3 Bedroom • 2 Bathroom • Garden</p>
+
+<a href="house1.html" class="button">View Details</a>
 
 </div>
 
-
-<div class="house">
+<div class="property-card">
 
 <img src="images/house2-front.jpg">
 
 <h3>Modern Apartment</h3>
 
-<p>Beautiful city apartment</p>
+<p class="price">$95,000</p>
 
-<a href="house2.html" class="button">View House</a>
+<p>2 Bedroom • City View</p>
+
+<a href="house2.html" class="button">View Details</a>
 
 </div>
 
-<div class="house">
+<div class="property-card">
 
 <img src="images/house3-front.jpg">
 
 <h3>Midtown Apartment</h3>
 
-<p>Midtown city </p>
+<p class="price">$80,000</p>
 
-<a href="house3.html" class="button">View House</a>
+<p>2 Bedroom • Midtown Area</p>
+
+<a href="house3.html" class="button">View Details</a>
 
 </div>
 
+</div>
 
 </section>
 
+<!-- CALL TO ACTION -->
+
+<section class="cta">
+
+<h2>Have a Property to Sell?</h2>
+
+<p>List your house or apartment on House-Ne-Spaces.</p>
+
+<a href="#" class="button">List Your Property</a>
+
+</section>
 
 <!-- ABOUT -->
+
 <section id="about">
 
 <h2>About Us</h2>
@@ -84,22 +119,21 @@ Browse our listings and find the perfect space for your lifestyle.
 
 </section>
 
-
 <!-- CONTACT -->
+
 <section id="contact">
 
 <h2>Contact</h2>
 
 <p>Email: info@housenespaces.com</p>
-
 <p>Phone: +254708236373</p>
 
 </section>
 
 </main>
 
-
 <!-- FOOTER -->
+
 <footer>
 
 <p>© 2026 House-Ne-Spaces. All rights reserved.</p>

@@ -111,3 +111,12 @@ margin:8px;
 }
 
 }
+
+.property-card img {
+    cursor: pointer;              /* shows hand cursor on hover */
+    transition: transform 0.3s ease; /* smooth transition for zoom */
+}
+
+.property-card img:hover {
+    transform: scale(1.05);       /* subtle zoom effect on hover */
+}

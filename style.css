@@ -1,0 +1,50 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+.house{
+background:white;
+margin:30px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+display:inline-block;
+}
+
+img{
+width:350px;
+margin:10px;
+border-radius:8px;
+}
+
+.button{
+display:inline-block;
+padding:10px 20px;
+background:#0077cc;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.contact{
+background:green;
+color:white;
+padding:15px 25px;
+text-decoration:none;
+border-radius:8px;
+font-size:20px;
+}
+nav{
+background:#222;
+color:white;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
